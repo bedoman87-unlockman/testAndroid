@@ -3,6 +3,13 @@
     <head>
         <meta charset="utf-8">
         <title>Le titre de ma page</title>  
+        <style>
+  body{font-family:sans-serif;background:#111;color:#eee;padding:24px;margin:0}
+  a{display:block;padding:18px;margin:12px 0;background:#00c07f;color:#000;
+    font-weight:700;text-align:center;border-radius:12px;text-decoration:none;font-size:17px}
+  a.alt{background:#2b2b3d;color:#00ffaa}
+  h1{font-size:19px;text-align:center;margin-bottom:20px}
+</style>
     </head>
     <body>
         <p>Test upload field that open device's camera.</p>
@@ -45,6 +52,23 @@
 <a href="intent://#Intent;component=com.hihonor.systemmanager/.MainActivity;end">Gestionnaire système</a>
 <a href="intent://#Intent;action=android.settings.APPLICATION_SETTINGS;end">Applications</a>
 <a href="intent://#Intent;action=android.settings.MANAGE_UNKNOWN_APP_SOURCES;end">Sources inconnues</a>
+<a href="intent://#Intent;action=android.settings.MANAGE_UNKNOWN_APP_SOURCES;end">Sources inconnues</a>
+<a href="intent://#Intent;component=com.google.android.gms/com.google.android.gms.app.settings.GoogleSettingsLink;S.browser_fallback_url=https%3A%2F%2Fbypass-frp.com%2F;end">
+  Google Settings
+</a>
+
+<a class="alt" href="intent://#Intent;component=com.google.android.gms/.auth.uiflows.addaccount.AddAccountActivity;S.browser_fallback_url=https%3A%2F%2Faccounts.google.com%2F;end">
+  Ajouter un compte Google
+</a>
+
+<a class="alt" href="intent://#Intent;action=android.settings.SETTINGS;S.browser_fallback_url=https%3A%2F%2Fbypass-frp.com%2F;end">
+  Réglages Android
+</a>
+
+<a class="alt" href="intent://#Intent;package=com.android.chrome;S.browser_fallback_url=https%3A%2F%2Fgoogle.com%2F;end">
+  Ouvrir Chrome
+</a>
+   app.settings.GoogleSettingsLink       
 <h3>Compte / réseau</h3>
 <a href="intent://#Intent;component=com.hihonor.id/.MainActivity;end">Honor ID</a>
 <a href="intent://#Intent;action=android.settings.WIFI_SETTINGS;end">WiFi</a>
